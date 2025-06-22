@@ -1,13 +1,17 @@
 
 # CGPA Calculator — CodeAlpha Internship
+**Internship Domain**: C++ Programming
 
-Internship Domain: C++ Programming
-Internship Platform: CodeAlpha
-Intern Name: Rishaw Prabhakar
-Task Name: CGPA Calculator
-Task Number: Task 1
-Duration: April 30 – June 30, 2025
 
+**Internship Platform**: CodeAlpha 
+
+**NAME**: Vanshika Arora
+
+**Task Name**: CGPA Calculator
+
+**Task Number**: Task 1
+
+**Duration**: April 30 – June 30, 2025
 ## 📌 Task 1: CGPA Calculator
 
 This project is part of the CodeAlpha Internship Program under the C++ Programming domain. It is a console-based application that calculates a student's CGPA based on their grades and credit hours for multiple courses.
