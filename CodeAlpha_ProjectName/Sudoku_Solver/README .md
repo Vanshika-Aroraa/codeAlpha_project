@@ -10,7 +10,7 @@
 
 **Task Name**: Sudoku Solver
 
-**Task Number**: Task 4
+**Task Number**: Task 3
 
 **Duration**: April 30 – June 30, 2025
 
