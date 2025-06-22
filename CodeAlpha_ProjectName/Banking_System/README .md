@@ -26,7 +26,9 @@ The system is designed using classes and encapsulation to handle real-world bank
 BankingSystem/
 │
 ├── banking_system.cpp        # Main source code
+
 ├── README.md                 # Project documentation
+
 ├── assets/                   # Screenshots (optional)
 
 
