@@ -1,0 +1,6 @@
+CGPA Report
+-----------
+cs | Grade: 9 | Credit: 9
+se | Grade: 8 | Credit: 8
+
+Final CGPA: 8.52941
