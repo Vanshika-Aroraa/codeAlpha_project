@@ -26,8 +26,11 @@ The system demonstrates file handling and basic authentication mechanisms using 
 LoginSystem/
 │
 ├── login_system.cpp         # Main source code
+
 ├── credentials.txt          # Stored user credentials
+
 ├── README.md                # Project documentation
+
 ├── assets/                  # Screenshots (optional)
 
 
