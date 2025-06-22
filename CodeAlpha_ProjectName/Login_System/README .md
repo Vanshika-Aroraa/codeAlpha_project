@@ -1,86 +1,68 @@
 
 # CGPA Calculator — CodeAlpha Internship
 
-Internship Domain: C++ Programming
-Internship Platform: CodeAlpha
-Intern Name: Rishaw Prabhakar
-Task Name: CGPA Calculator
-Task Number: Task 1
-Duration: April 30 – June 30, 2025
+**Internship Domain**: C++ Programming
 
-## 📌 Task 1: CGPA Calculator
 
-This project is part of the CodeAlpha Internship Program under the C++ Programming domain. It is a console-based application that calculates a student's CGPA based on their grades and credit hours for multiple courses.
+**Internship Platform**: CodeAlpha 
 
----
+**NAME**: Vanshika Arora
 
-## ✅ Features
+**Task Name**: Login and Registration System  
 
-- Input number of courses
-- Input grade and credit hours for each course
-- Calculate total grade points and total credit hours
-- Compute and display GPA and CGPA
-- Display all individual course details
+**Task Number**: Task 2
+
+**Duration**: April 30 – June 30, 2025
+
+## 📌 Project Overview
+This project is a **Login and Registration System** built using C++. It enables users to register with a unique username and password, stores the credentials securely in a file, and allows users to log in by verifying their stored credentials.
+
+The system demonstrates file handling and basic authentication mechanisms using C++.
 
 ---
 
-## 🛠️ Tech Stack
+## Repository Structure
 
-- Language: C++
-- Platform: Console Application
+LoginSystem/
+│
+├── login_system.cpp         # Main source code
+├── credentials.txt          # Stored user credentials
+├── README.md                # Project documentation
+├── assets/                  # Screenshots (optional)
 
----
 
-## 🧮 How It Works
+## ✅ Features Implemented
 
-1. The user enters the number of courses.
-2. For each course, the user inputs:
-   - Grade (e.g., 10 for A+, 9 for A, etc.)
-   - Credit hours
-3. The program calculates:
-   - Total grade points = Σ (grade × credit hours)
-   - Total credits = Σ (credit hours)
-   - CGPA = total grade points / total credits
-4. Displays course-wise info and final CGPA.
-
----
-
-## 🚀 Getting Started
-
-### Requirements
-
-- C++ compiler (e.g., g++, clang++)
-- Any C++ IDE or terminal
-
-### Run the Code
-
-```bash
-g++ main.cpp -o cgpa_calculator
-./cgpa_calculator
-```
+- 📝 User registration with input validation  
+- 🔐 Secure login using file-based credential storage  
+- 📁 Credentials saved in a text file  
+- 📉 Error handling for duplicate or incorrect entries  
+- 📦 Modular functions for login, registration, and validation  
 
 ---
 
-## 📸 Output Example
+## 🔧 Tech Stack & Concepts
 
-```
-Enter number of courses: 3
-
-Course 1:
-Grade: 9
-Credit Hours: 4
-
-Course 2:
-Grade: 8
-Credit Hours: 3
-
-Course 3:
-Grade: 10
-Credit Hours: 3
-
-Total Credit Hours: 10
-Total Grade Points: 89
-CGPA: 8.9
-```
+- **Language:** C++  
+- **Key Concepts:**  
+  - File Handling (`fstream`)  
+  - Strings and Input Validation  
+  - Conditional Statements and Loops  
+  - Functions and Code Modularity  
 
 ---
+
+## 🧠 Learning Outcomes
+
+- Mastery of file I/O in C++  
+- Hands-on experience building simple authentication logic  
+- Improved skills in handling user input securely  
+- Understanding how to persist data locally in C++
+
+---
+
+## 📝 How to Run
+
+1. Compile using a C++ compiler:
+   ```bash
+   g++ login_system.cpp -o login_system
