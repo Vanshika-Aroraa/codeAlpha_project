@@ -4,7 +4,6 @@
 
 **Internship Domain**: C++ Programming
 
-
 **Internship Platform**: CodeAlpha                                                                     
 **Intern Name**: Vanshika Arora
 
