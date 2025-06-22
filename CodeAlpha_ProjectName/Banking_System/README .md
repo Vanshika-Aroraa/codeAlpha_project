@@ -1,91 +1,70 @@
 
 # CGPA Calculator — CodeAlpha Internship
 
-
 **Internship Domain**: C++ Programming
 
-**Internship Platform**: CodeAlpha                                                                     
-**Intern Name**: Vanshika Arora
 
-**Task Name**: CGPA Calculator
+**Internship Platform**: CodeAlpha 
 
-**Task Number**: Task 1
+**NAME**: Vanshika Arora
+
+**Task Name**: Banking System
+
+**Task Number**: Task 4
 
 **Duration**: April 30 – June 30, 2025
 
-## 📌 Task 1: CGPA Calculator
+## 📌 Project Overview
+This project simulates a **Banking System** using Object-Oriented Programming in C++. It allows users to create accounts, deposit and withdraw money, transfer funds, and view transaction history.
 
-This project is part of the CodeAlpha Internship Program under the C++ Programming domain. It is a console-based application that calculates a student's CGPA based on their grades and credit hours for multiple courses.
-
----
-
-## ✅ Features
-
-- Input number of courses
-- Input grade and credit hours for each course
-- Calculate total grade points and total credit hours
-- Compute and display GPA and CGPA
-- Display all individual course details
+The system is designed using classes and encapsulation to handle real-world banking logic and ensure modular, reusable code.
 
 ---
 
-## 🛠️ Tech Stack
+## Repository Structure
 
-- Language: C++
-- Platform: Console Application
+BankingSystem/
+│
+├── banking_system.cpp        # Main source code
+├── README.md                 # Project documentation
+├── assets/                   # Screenshots (optional)
 
----
 
-## 🧮 How It Works
+## ✅ Features Implemented
 
-1. The user enters the number of courses.
-2. For each course, the user inputs:
-   - Grade (e.g., 10 for A+, 9 for A, etc.)
-   - Credit hours
-3. The program calculates:
-   - Total grade points = Σ (grade × credit hours)
-   - Total credits = Σ (credit hours)
-   - CGPA = total grade points / total credits
-4. Displays course-wise info and final CGPA.
-
----
-
-## 🚀 Getting Started
-
-### Requirements
-
-- C++ compiler (e.g., g++, clang++)
-- Any C++ IDE or terminal
-
-### Run the Code
-
-```bash
-g++ main.cpp -o cgpa_calculator
-./cgpa_calculator
-```
+- 🔐 Account creation with unique account numbers
+- 💰 Deposit and withdrawal functionality
+- 🔄 Fund transfer between accounts
+- 📜 Transaction history for each account
+- 💼 Balance enquiry and customer info display
+- 💾 Optional: File storage for account data (extendable)
 
 ---
 
-## 📸 Output Example
+## 🔧 Tech Stack & Concepts
 
-```
-Enter number of courses: 3
-
-Course 1:
-Grade: 9
-Credit Hours: 4
-
-Course 2:
-Grade: 8
-Credit Hours: 3
-
-Course 3:
-Grade: 10
-Credit Hours: 3
-
-Total Credit Hours: 10
-Total Grade Points: 89
-CGPA: 8.9
-```
+- **Language:** C++  
+- **Paradigm:** Object-Oriented Programming  
+- **Key Concepts:**  
+  - Classes & Objects  
+  - Constructors  
+  - Member Functions  
+  - File I/O (optional)  
+  - Data validation  
 
 ---
+
+## 🧠 Learning Outcomes
+
+- Understanding of OOP principles in C++
+- Real-world simulation of a banking system
+- Improved skills in handling user input and stateful logic
+- Practice in writing clean and reusable code
+
+---
+
+## 📝 How to Run
+
+1. Compile using a C++ compiler:
+   ```bash
+   g++ banking_system.cpp -o banking_system
