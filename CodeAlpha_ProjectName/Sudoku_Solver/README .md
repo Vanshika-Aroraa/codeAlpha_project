@@ -1,86 +1,69 @@
 
 # CGPA Calculator — CodeAlpha Internship
 
-Internship Domain: C++ Programming
-Internship Platform: CodeAlpha
-Intern Name: Rishaw Prabhakar
-Task Name: CGPA Calculator
-Task Number: Task 1
-Duration: April 30 – June 30, 2025
+**Internship Domain**: C++ Programming
 
-## 📌 Task 1: CGPA Calculator
 
-This project is part of the CodeAlpha Internship Program under the C++ Programming domain. It is a console-based application that calculates a student's CGPA based on their grades and credit hours for multiple courses.
+**Internship Platform**: CodeAlpha 
+
+**NAME**: Vanshika Arora
+
+**Task Name**: Sudoku Solver
+
+**Task Number**: Task 4
+
+**Duration**: April 30 – June 30, 2025
+
+## 📌 Project Overview
+This project implements a **Sudoku Solver** using the backtracking algorithm in C++. The user inputs an unsolved 9x9 Sudoku grid with zeros representing empty cells. The program solves the puzzle by placing valid digits (1–9) in empty cells while obeying Sudoku rules.
+
+It demonstrates algorithmic problem-solving, recursion, and data validation.
+
+---
+## Repository Structure
+
+SudokuSolver/                                                                             
+
+│
+
+├── sudoku_solver.cpp        # Main source code
+
+├── README.md                # Project documentation
+
+├── assets/                  # Screenshots (optional)
+
+
+## ✅ Features Implemented
+
+- 🔄 Solves 9x9 Sudoku puzzles using recursion and backtracking  
+- ✅ Validates rows, columns, and 3x3 subgrids  
+- 🖨️ Displays both input and solved Sudoku grid  
+- ⏱️ Solves the puzzle in real-time without GUI  
 
 ---
 
-## ✅ Features
+## 🔧 Tech Stack & Concepts
 
-- Input number of courses
-- Input grade and credit hours for each course
-- Calculate total grade points and total credit hours
-- Compute and display GPA and CGPA
-- Display all individual course details
-
----
-
-## 🛠️ Tech Stack
-
-- Language: C++
-- Platform: Console Application
+- **Language:** C++  
+- **Key Concepts:**  
+  - 2D Arrays  
+  - Recursion & Backtracking  
+  - Constraints Checking  
+  - Console Input/Output  
 
 ---
 
-## 🧮 How It Works
+## 🧠 Learning Outcomes
 
-1. The user enters the number of courses.
-2. For each course, the user inputs:
-   - Grade (e.g., 10 for A+, 9 for A, etc.)
-   - Credit hours
-3. The program calculates:
-   - Total grade points = Σ (grade × credit hours)
-   - Total credits = Σ (credit hours)
-   - CGPA = total grade points / total credits
-4. Displays course-wise info and final CGPA.
+- Understanding of recursive backtracking algorithms  
+- Mastery in 2D array manipulation and grid-based logic  
+- Practical use of functions for modular and readable code  
+- Efficient debugging and constraint handling  
 
 ---
 
-## 🚀 Getting Started
+## 📝 How to Run
 
-### Requirements
-
-- C++ compiler (e.g., g++, clang++)
-- Any C++ IDE or terminal
-
-### Run the Code
-
-```bash
-g++ main.cpp -o cgpa_calculator
-./cgpa_calculator
-```
-
----
-
-## 📸 Output Example
-
-```
-Enter number of courses: 3
-
-Course 1:
-Grade: 9
-Credit Hours: 4
-
-Course 2:
-Grade: 8
-Credit Hours: 3
-
-Course 3:
-Grade: 10
-Credit Hours: 3
-
-Total Credit Hours: 10
-Total Grade Points: 89
-CGPA: 8.9
-```
-
----
+1. Compile the code using a C++ compiler:
+   ```bash
+   g++ sudoku_solver.cpp -o sudoku_solver
