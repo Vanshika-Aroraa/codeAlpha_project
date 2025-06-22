@@ -2,10 +2,14 @@
 # CGPA Calculator — CodeAlpha Internship
 
 **Internship Domain: C++ Programming
-**Internship Platform: CodeAlpha
+
+**Internship Platform: CodeAlpha                                                                     
 **Intern Name: Vanshika Arora
+
 **Task Name: CGPA Calculator
+
 **Task Number: Task 1
+
 **Duration: April 30 – June 30, 2025
 
 ## 📌 Task 1: CGPA Calculator
